@@ -7,4 +7,4 @@ build: [
 remove: [
   [make "PREFIX=%{prefix}%" "uninstall"]
 ]
-depends: ["rpc" "xen-api-client"]
+depends: ["obuild" "rpc"]
