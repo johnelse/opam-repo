@@ -7,4 +7,11 @@ build: [
 remove: [
   [make "PREFIX=%{prefix}%" "uninstall"]
 ]
-depends: ["obuild" "atdgen" "biniou" "yojson" "uri" "cohttp"]
+depends: [
+  "obuild"
+  "atdgen"
+  "biniou"
+  "yojson"
+  "uri"
+  "cohttp" {>= "0.10.0"}
+]
