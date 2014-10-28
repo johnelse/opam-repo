@@ -8,4 +8,4 @@ build: [
 remove: [
   [make "PREFIX=%{prefix}%" "uninstall"]
 ]
-depends: ["cmdliner" "obus" "mpris" "spotify-web"]
+depends: ["cmdliner" "obus" "mpris" "spotify-web" "oasis"]
