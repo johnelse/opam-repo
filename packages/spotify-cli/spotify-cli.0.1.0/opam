@@ -1,5 +1,5 @@
 opam-version: "1"
-maintainer: "john.else@citrix.com"
+maintainer: "john.else@gmail.com"
 build: [
   ["./configure"]
   [make]
@@ -8,4 +8,4 @@ build: [
 remove: [
   [make "PREFIX=%{prefix}%" "uninstall"]
 ]
-depends: ["cmdliner" "obus" "mpris" "spotify-web"]
+depends: ["cmdliner" "obus" "mpris" "spotify-web-api"]
